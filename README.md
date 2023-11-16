@@ -1,7 +1,5 @@
 # Shell-study
 
-# Shellコマンド
-
 ## 学習環境
 * Ubuntuを使用
 
