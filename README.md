@@ -21,10 +21,20 @@ cd ../        <!-- 参照階層からひとつ上のディレクトリに上が�
 ```
 mkdir sampledir  <!-- 参照階層内にsampledirディレクトリを作成する -->
 ```
-* ファイルの作成（サンプルファイル : samplefテキストファイル）
+* ファイルの作成（サンプルファイル）
 ```
-touch samplef.txt    <!-- 参照階層内にテキストファイルsamplefを作成する -->
+touch samplet.txt    <!-- 参照階層内にテキストファイルsampletを作成する -->
 touch samplej.java   <!-- 参照階層内にJavaファイルsamplejを作成する -->
+```
+* ファイルの移動（サンプルファイル : samplet.txt）
+* ファイル名の変更も行うことができる
+```
+mv samplet.txt sampledir      <!-- samplet.txtをsampledirディレクトリに移動する -->
+mv samplet.txt samplexx.txt   <!-- ファイル名をsampletからsamplexxに変更する -->
+```
+* ファイルのコピー（サンプルファイル : samplet.txt）
+```
+cp samplet.txt sampledir  <!-- samplet.txtをsampledirディレクトリにコピーする -->
 ```
 
 
