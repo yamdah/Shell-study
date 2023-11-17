@@ -48,5 +48,15 @@ cp samplet.txt sampledir                           <!-- samplet.txtをsampledir�
   rm samplet.txt                                   <!-- samplet.txtを削除する -->
 ```
 
+* テキストファイルへの書き込み
+```
+  nano samplet.txt                                 <!-- samplet.txtへの書き込み画面を表示 -->
+```
+
+* テキストファイルの内容確認
+```
+  cat samplet.txt                                   <!-- samplet.txtの内容を表示する -->
+```
+
 
 
