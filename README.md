@@ -48,7 +48,20 @@ cp samplet.txt sampledir                           <!-- samplet.txtをsampledir�
   rm samplet.txt                                   <!-- samplet.txtを削除する -->
 ```
 
-* テキストファイルへの書き込み
+* 文字列の表示
+```
+  echo "エコー"                                     <!-- 文字列「エコー」を表示する -->
+```
+
+* echoコマンド応用
+　* 文字列をテキストファイルとして出力
+　* テキストファイルへの追記もできる
+```
+  echo "エコー" > samplet.txt                       　<!-- 文字列「エコー」をsamplet.txtとして出力 -->
+  echo "テキスト" >> samplet.txt                       <!-- 文字列「テキスト」をsamplet.txtに追記 -->
+```
+
+* テキストファイルの編集
 ```
   nano samplet.txt                                 <!-- samplet.txtへの書き込み画面を表示 -->
 ```
