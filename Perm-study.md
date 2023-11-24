@@ -25,7 +25,7 @@ chmod 755 sample.txt         <!-- sample.txtの権限変更　ユーザー/グ�
 
 * 権限所有者の変更
 ```
-chown tester sample.txt      <!-- sample.txtの所有者をtester(ユーザ)に変更 -->
+chown tester sample.txt          <!-- sample.txtの所有者をtester(ユーザ)に変更 -->
 chown tester:user sample.txt     <!-- sample.txtの所有者をtester(ユーザ)とuser(グループ)に変更 -->
 ```
 
