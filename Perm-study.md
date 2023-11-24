@@ -31,5 +31,5 @@ chown tester:user sample.txt     <!-- sample.txtの所有者をtester(ユーザ)
 
 * より強い権限によるコマンドの実行
 ```
-sudo chmod 755    <!-- より強い権限からのchmodコマンド実行 -->  
+sudo chmod 755 sample.txt    <!-- より強い権限からのchmodコマンド実行 -->  
 ```
