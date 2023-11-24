@@ -20,12 +20,13 @@ ls -la
 * 権限の変更
 * 許可する権限を「r=4」、「w=2」、「x=1」の合計値にして段階順に並べる。
 ```
-chmod 755         <!-- ユーザー/グループ/グループ外 --> 
+chmod 755 sample.txt         <!-- sample.txtの権限変更　ユーザー/グループ/グループ外 --> 
 ```
 
 * 権限所有者の変更
 ```
-chowr  
+chown tester sample.txt      <!-- sample.txtの所有者をtester(ユーザ)に変更 -->
+chown tester:user sample.txt     <!-- sample.txtの所有者をtester(ユーザ)とuser(グループ)に変更 -->
 ```
 
 * より強い権限によるコマンドの実行
